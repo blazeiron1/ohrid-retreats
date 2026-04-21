@@ -7,40 +7,40 @@
 export const P = {
 
   // ── Hero (full-screen background on the landing section) ─────────────────
-  hero: 'https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080',
+  hero: './img/o-1.jpg',
 
   // ── Apartment card cover photos ───────────────────────────────────────────
-  apt1Hero: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
-  apt2Hero: 'https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
+  apt1Hero: './img/r-1.avif',
+  apt2Hero: './img/p-2.jpg',
   apt3Hero: 'https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
 
   // ── Apartment interior photos (shown in the detail modal) ─────────────────
   // Apartment 1
-  apt1a: 'https://images.pexels.com/photos/2029669/pexels-photo-2029669.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
-  apt1b: 'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
+  apt1a: './img/r-2.jpeg',
+  apt1b: './img/r-3.jpeg',
   apt1c: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
   // Apartment 2
-  apt2a: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
-  apt2b: 'https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
-  apt2c: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
+  apt2a: './img/p-1.jpg',
+  apt2b: './img/p-2.jpg',
+  apt2c: './img/p-3.jpg',
   // Apartment 3
   apt3a: 'https://images.pexels.com/photos/2029669/pexels-photo-2029669.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
   apt3b: 'https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
   apt3c: 'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
 
   // ── About section ─────────────────────────────────────────────────────────
-  about1: 'https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
-  about2: 'https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?auto=compress&cs=tinysrgb&w=900&h=600',
+  about1: './img/s-1.avif',
+  about2: './img/s-2.avif',
 
   // ── Gallery grid (8 images) ───────────────────────────────────────────────
-  gal1: 'https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-  gal2: 'https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-  gal3: 'https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-  gal4: 'https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-  gal5: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-  gal6: 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-  gal7: 'https://images.pexels.com/photos/3155666/pexels-photo-3155666.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-  gal8: 'https://images.pexels.com/photos/2476632/pexels-photo-2476632.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+  gal1: './img/s-3.avif',
+  gal2: './img/s-4.avif',
+  gal3: './img/s-5.avif',
+  gal4: './img/s-6.avif',
+  gal5: './img/s-7.avif',
+  gal6: './img/s-8.avif',
+  gal7: './img/s-9.avif',
+  gal8: './img/s-10.avif',
 
   // ── Parallax strips (full-width dividers between sections) ───────────────
   strip1: 'https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1920&h=800',
@@ -53,15 +53,15 @@ export const P = {
   contactImg: 'https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=900&h=1200',
 
   // ── Photo strip (5 thumbnails just below the hero) ───────────────────────
-  ex1: 'https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=600&h=400',
-  ex2: 'https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600&h=400',
-  ex3: 'https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?auto=compress&cs=tinysrgb&w=600&h=400',
-  ex4: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=600&h=400',
-  ex5: 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=600&h=400',
+  ex1: './img/i-1.webp',
+  ex2: './img/i-2.avif',
+  ex3: './img/i-3.avif',
+  ex4: './img/i-4.avif',
+  ex5: './img/i-6.jpg',
 
   // ── 4-panel parallax strip ────────────────────────────────────────────────
-  pan1: 'https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800',
-  pan2: 'https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800',
-  pan3: 'https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800',
-  pan4: 'https://images.pexels.com/photos/2476632/pexels-photo-2476632.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800',
+  pan1: './img/n-4.jpg',
+  pan2: './img/n-3.avif',
+  pan3: './img/n-2.jpg',
+  pan4: './img/n-1.jpg',
 };
