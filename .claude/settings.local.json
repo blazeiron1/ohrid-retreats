@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p C:/Users/blago/ohrid-retreats/src/data C:/Users/blago/ohrid-retreats/src/components C:/Users/blago/ohrid-retreats/public/img)",
+      "Bash(cp C:/Users/blago/ohrid-retreats/img/* C:/Users/blago/ohrid-retreats/public/img/)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
