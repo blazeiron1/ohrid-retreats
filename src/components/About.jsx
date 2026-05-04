@@ -27,13 +27,13 @@ export default function About() {
 
         <div style={{ flex: '1 1 400px', padding: '40px 52px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
           <p className="reveal" style={{ fontSize: 10, letterSpacing: '.32em', color: 'var(--gold)', textTransform: 'uppercase', marginBottom: 18 }}>The Destination</p>
-          <h2 className="reveal" style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 'clamp(32px,4vw,52px)', fontWeight: 300, color: '#fff', lineHeight: 1.08, marginBottom: 32 }}>
+          <h2 className="reveal" style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(32px,4vw,52px)', fontWeight: 300, color: '#fff', lineHeight: 1.08, marginBottom: 32 }}>
             Ohrid —<br /><em style={{ color: '#7ec8e8' }}>Europe's Jerusalem</em>
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 22, marginBottom: 32 }}>
             {[{ n: '365', u: 'Churches' }, { n: '3M+', u: 'Years Old' }, { n: '2', u: 'UNESCO Titles' }, { n: '294m', u: 'Lake Depth' }].map(s => (
               <div key={s.n} className="reveal">
-                <div style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 38, fontWeight: 300, color: 'var(--gold)', lineHeight: 1 }}>{s.n}</div>
+                <div style={{ fontFamily: "'Playfair Display',serif", fontSize: 38, fontWeight: 300, color: 'var(--gold)', lineHeight: 1 }}>{s.n}</div>
                 <div style={{ fontSize: 12, color: 'rgba(255,255,255,.55)', marginTop: 3 }}>{s.u}</div>
               </div>
             ))}

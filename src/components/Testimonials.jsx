@@ -32,15 +32,15 @@ export default function Testimonials() {
 
       <div style={{ maxWidth: 820, margin: '0 auto', textAlign: 'center', position: 'relative', zIndex: 1 }}>
         <p className="reveal" style={{ fontSize: 10, letterSpacing: '.32em', color: 'var(--gold)', textTransform: 'uppercase', marginBottom: 18 }}>Guest Stories</p>
-        <h2 className="reveal" style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 'clamp(32px,4vw,52px)', fontWeight: 300, color: '#fff', marginBottom: 56 }}>
+        <h2 className="reveal" style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(32px,4vw,52px)', fontWeight: 300, color: '#fff', marginBottom: 56 }}>
           What Guests Say
         </h2>
 
         <div style={{ background: 'rgba(255,255,255,.05)', backdropFilter: 'blur(14px)', border: '1px solid rgba(255,255,255,.1)', borderRadius: 4, padding: '52px 60px', position: 'relative', minHeight: 240 }}>
-          <div style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 80, color: 'var(--gold)', opacity: .28, position: 'absolute', top: 8, left: 34, lineHeight: 1 }}>"</div>
+          <div style={{ fontFamily: "'Playfair Display',serif", fontSize: 80, color: 'var(--gold)', opacity: .28, position: 'absolute', top: 8, left: 34, lineHeight: 1 }}>"</div>
 
           <div key={animKey} style={{ animation: 'fadeUp .5s ease both' }}>
-            <p style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 'clamp(17px,2.4vw,22px)', fontStyle: 'italic', color: 'rgba(255,255,255,.9)', lineHeight: 1.75, marginBottom: 28 }}>
+            <p style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(17px,2.4vw,22px)', fontStyle: 'italic', color: 'rgba(255,255,255,.9)', lineHeight: 1.75, marginBottom: 28 }}>
               {r.quote}
             </p>
             <p style={{ color: '#fff', fontWeight: 500, fontSize: 14 }}>{r.name}</p>

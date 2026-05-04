@@ -12,7 +12,7 @@ export default function Apartments() {
       <div style={{ maxWidth: 1200, margin: '0 auto' }}>
         <div style={{ textAlign: 'center', marginBottom: 72 }}>
           <p className="reveal" style={{ fontSize: 10, letterSpacing: '.32em', color: 'var(--gold)', textTransform: 'uppercase', marginBottom: 18 }}>Our Collection</p>
-          <h2 className="reveal" style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 'clamp(38px,5vw,64px)', fontWeight: 300, color: 'var(--lake-deep)', letterSpacing: '-.02em', lineHeight: 1.05 }}>
+          <h2 className="reveal" style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(38px,5vw,64px)', fontWeight: 300, color: 'var(--lake-deep)', letterSpacing: '-.02em', lineHeight: 1.05 }}>
             Curated Lakeside<br /><em>Sanctuaries</em>
           </h2>
         </div>

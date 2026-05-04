@@ -18,7 +18,7 @@ export default function Gallery() {
       <div style={{ maxWidth: 1200, margin: '0 auto' }}>
         <div style={{ textAlign: 'center', marginBottom: 60 }}>
           <p className="reveal" style={{ fontSize: 10, letterSpacing: '.32em', color: 'var(--gold)', textTransform: 'uppercase', marginBottom: 18 }}>Visual Journey</p>
-          <h2 className="reveal" style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 'clamp(34px,4vw,58px)', fontWeight: 300, color: 'var(--lake-deep)' }}>
+          <h2 className="reveal" style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(34px,4vw,58px)', fontWeight: 300, color: 'var(--lake-deep)' }}>
             Ohrid Through <em>Our Lens</em>
           </h2>
         </div>
@@ -33,7 +33,7 @@ export default function Gallery() {
                   style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform .65s ease', transform: hov ? 'scale(1.07)' : 'scale(1)' }} />
                 <div style={{ position: 'absolute', inset: 0, background: hov ? 'rgba(11,45,71,.5)' : 'rgba(11,45,71,.08)', transition: 'background .35s', display: 'flex', alignItems: 'flex-end' }}>
                   <div style={{ padding: 22, transform: hov ? 'translateY(0)' : 'translateY(14px)', opacity: hov ? 1 : 0, transition: 'all .3s' }}>
-                    <p style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 20, color: '#fff', fontWeight: 400 }}>{g.lb}</p>
+                    <p style={{ fontFamily: "'Playfair Display',serif", fontSize: 20, color: '#fff', fontWeight: 400 }}>{g.lb}</p>
                   </div>
                 </div>
               </div>

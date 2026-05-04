@@ -30,7 +30,7 @@ export default function AptModal({ apt, onClose }) {
 
           <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '24px 30px', background: 'linear-gradient(0deg,rgba(0,0,0,.7),transparent)' }}>
             <p style={{ fontSize: 9, letterSpacing: '.22em', color: 'rgba(255,255,255,.65)', textTransform: 'uppercase', marginBottom: 5 }}>{apt.tag}</p>
-            <p style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 32, color: '#fff', fontWeight: 400 }}>{apt.name}</p>
+            <p style={{ fontFamily: "'Playfair Display',serif", fontSize: 32, color: '#fff', fontWeight: 400 }}>{apt.name}</p>
           </div>
 
           <div style={{ position: 'absolute', bottom: 24, right: 30, display: 'flex', gap: 6 }}>
@@ -62,7 +62,7 @@ export default function AptModal({ apt, onClose }) {
               ))}
             </div>
             <div style={{ textAlign: 'right' }}>
-              <span style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 36, fontWeight: 400, color: 'var(--lake-deep)' }}>€{apt.price}</span>
+              <span style={{ fontFamily: "'Playfair Display',serif", fontSize: 36, fontWeight: 400, color: 'var(--lake-deep)' }}>€{apt.price}</span>
               <span style={{ fontSize: 13, color: '#8a7a6e' }}> / night</span>
             </div>
           </div>
@@ -79,11 +79,11 @@ export default function AptModal({ apt, onClose }) {
             <button
               onClick={() => { onClose(); setTimeout(() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }), 200); }}
               className="btn-gold"
-              style={{ flex: 1, minWidth: 180, padding: '15px', background: 'linear-gradient(135deg,#c9a227,#e8c560)', color: '#1a1208', border: 'none', borderRadius: 2, fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', fontWeight: 600, cursor: 'pointer', fontFamily: "'Jost',sans-serif" }}>
+              style={{ flex: 1, minWidth: 180, padding: '15px', background: 'linear-gradient(135deg,#c9a227,#e8c560)', color: '#1a1208', border: 'none', borderRadius: 2, fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', fontWeight: 600, cursor: 'pointer', fontFamily: "'Lato',sans-serif" }}>
               Reserve Now
             </button>
             <button onClick={onClose}
-              style={{ padding: '15px 28px', border: '1px solid #c4b49f', background: 'transparent', color: '#6a5a50', borderRadius: 2, fontSize: 11, letterSpacing: '.14em', textTransform: 'uppercase', cursor: 'pointer', fontFamily: "'Jost',sans-serif" }}>
+              style={{ padding: '15px 28px', border: '1px solid #c4b49f', background: 'transparent', color: '#6a5a50', borderRadius: 2, fontSize: 11, letterSpacing: '.14em', textTransform: 'uppercase', cursor: 'pointer', fontFamily: "'Lato',sans-serif" }}>
               Close
             </button>
           </div>

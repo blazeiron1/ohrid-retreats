@@ -19,7 +19,7 @@ export default function PhotoStrip() {
             onMouseEnter={() => setHov(true)} onMouseLeave={() => setHov(false)}>
             <img src={src} alt={lb} style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform .6s ease', transform: hov ? 'scale(1.1)' : 'scale(1)' }} />
             <div style={{ position: 'absolute', inset: 0, background: hov ? 'rgba(11,45,71,.55)' : 'rgba(11,45,71,.2)', transition: 'background .3s', display: 'flex', alignItems: 'flex-end' }}>
-              <p style={{ padding: '14px 16px', fontFamily: "'Cormorant Garamond',serif", fontSize: 16, color: '#fff', opacity: hov ? 1 : 0, transition: 'opacity .3s' }}>{lb}</p>
+              <p style={{ padding: '14px 16px', fontFamily: "'Playfair Display',serif", fontSize: 16, color: '#fff', opacity: hov ? 1 : 0, transition: 'opacity .3s' }}>{lb}</p>
             </div>
           </div>
         );

@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import PhotoStrip from './components/PhotoStrip';
-import Apartments from './components/Apartments';
+import Rooms from './components/Rooms';
 import ParallaxStrip1 from './components/ParallaxStrip1';
 import About from './components/About';
-import Amenities from './components/Amenities';
+import Services from './components/Services';
 import Gallery from './components/Gallery';
 import ParallaxStrip2 from './components/ParallaxStrip2';
 import Testimonials from './components/Testimonials';
@@ -33,10 +33,10 @@ export default function App() {
       <Nav scrolled={scrolled} />
       <Hero />
       <PhotoStrip />
-      <Apartments />
+      <Rooms />
       <ParallaxStrip1 />
       <About />
-      <Amenities />
+      <Services />
       <Gallery />
       <ParallaxStrip2 />
       <Testimonials />

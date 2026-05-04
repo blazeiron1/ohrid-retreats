@@ -10,10 +10,10 @@ export default function Hero() {
         <p style={{ fontSize: 10, letterSpacing: '.38em', textTransform: 'uppercase', color: '#c9a227', marginBottom: 22, animation: 'fadeUp .8s ease both' }}>
           Luxury Lakeside Living · Ohrid, North Macedonia
         </p>
-        <h1 style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 'clamp(52px,9.5vw,112px)', fontWeight: 300, lineHeight: .88, letterSpacing: '-.025em', color: '#fff', animation: 'fadeUp .9s ease .18s both' }}>
+        <h1 style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(52px,9.5vw,112px)', fontWeight: 300, lineHeight: .88, letterSpacing: '-.025em', color: '#fff', animation: 'fadeUp .9s ease .18s both' }}>
           Where the<br />
-          <em style={{ fontStyle: 'italic', color: '#7ec8e8' }}>Lake</em> Meets<br />
-          <span style={{ background: 'linear-gradient(120deg,#c9a227 30%,#f0d97a)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Luxury</span>
+          <em style={{ fontStyle: 'italic', color: '#fff' }}>Lake</em> Meets<br />
+          <span style={{ color: '#fff' }}>Luxury</span>
         </h1>
         <p style={{ fontSize: 16, fontWeight: 300, lineHeight: 1.75, color: 'rgba(255,255,255,.65)', maxWidth: 500, margin: '28px auto 48px', animation: 'fadeUp .9s ease .36s both' }}>
           Curated apartments in the heart of Ohrid — a UNESCO World Heritage city on the shores of Europe's oldest, deepest lake.

@@ -18,13 +18,13 @@ export default function AptCard({ a, delay, onOpen }) {
         </div>
 
         <div style={{ position: 'absolute', top: 16, right: 16, background: 'rgba(0,0,0,.38)', backdropFilter: 'blur(12px)', padding: '7px 16px', borderRadius: 20, color: '#fff' }}>
-          <span style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 24, fontWeight: 500 }}>€{a.price}</span>
+          <span style={{ fontFamily: "'Playfair Display',serif", fontSize: 24, fontWeight: 500 }}>€{a.price}</span>
           <span style={{ fontSize: 10, opacity: .7 }}> /night</span>
         </div>
 
         <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '20px 24px' }}>
           <p style={{ fontSize: 9, letterSpacing: '.22em', color: 'rgba(255,255,255,.65)', textTransform: 'uppercase', marginBottom: 5 }}>{a.tag}</p>
-          <p style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 27, color: '#fff', fontWeight: 400 }}>{a.name}</p>
+          <p style={{ fontFamily: "'Playfair Display',serif", fontSize: 27, color: '#fff', fontWeight: 400 }}>{a.name}</p>
         </div>
       </div>
 
@@ -47,7 +47,7 @@ export default function AptCard({ a, delay, onOpen }) {
         </div>
 
         <button onClick={() => onOpen(a)}
-          style={{ width: '100%', padding: '14px', background: hov ? 'linear-gradient(135deg,#0b2d47,#1a5276)' : '#0b2d47', color: '#fff', border: 'none', borderRadius: 2, fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', cursor: 'pointer', fontFamily: "'Jost',sans-serif", transition: 'background .3s', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
+          style={{ width: '100%', padding: '14px', background: hov ? 'linear-gradient(135deg,#0b2d47,#1a5276)' : '#0b2d47', color: '#fff', border: 'none', borderRadius: 2, fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', cursor: 'pointer', fontFamily: "'Lato',sans-serif", transition: 'background .3s', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
           <span>View Details</span>
           <span style={{ fontSize: 14 }}>→</span>
         </button>

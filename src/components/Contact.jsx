@@ -6,7 +6,7 @@ export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', checkin: '', checkout: '', guests: '2', apt: '', notes: '' });
   const [sent, setSent] = useState(false);
 
-  const inp = { width: '100%', padding: '13px 18px', background: 'rgba(255,255,255,.06)', border: '1px solid rgba(255,255,255,.14)', borderRadius: 2, color: '#fff', fontSize: 14, fontFamily: "'Jost',sans-serif", outline: 'none', transition: 'border-color .3s,box-shadow .3s' };
+  const inp = { width: '100%', padding: '13px 18px', background: 'rgba(255,255,255,.06)', border: '1px solid rgba(255,255,255,.14)', borderRadius: 2, color: '#fff', fontSize: 14, fontFamily: "'Lato',sans-serif", outline: 'none', transition: 'border-color .3s,box-shadow .3s' };
   const focus = e => { e.target.style.borderColor = '#5dade2'; e.target.style.boxShadow = '0 0 0 3px rgba(93,173,226,.18)'; };
   const blur  = e => { e.target.style.borderColor = 'rgba(255,255,255,.14)'; e.target.style.boxShadow = 'none'; };
   const lbl   = txt => <label style={{ fontSize: 9, letterSpacing: '.18em', color: 'rgba(255,255,255,.45)', textTransform: 'uppercase', display: 'block', marginBottom: 8 }}>{txt}</label>;
@@ -19,7 +19,7 @@ export default function Contact() {
           <img src={P.contactImg} alt="Ohrid terrace view" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 30%' }} />
           <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(90deg,rgba(11,45,71,.15),rgba(11,45,71,.72))' }}>
             <div style={{ position: 'absolute', bottom: 52, left: 44 }}>
-              <p style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 40, fontWeight: 300, color: '#fff', lineHeight: 1.1, marginBottom: 12 }}>
+              <p style={{ fontFamily: "'Playfair Display',serif", fontSize: 40, fontWeight: 300, color: '#fff', lineHeight: 1.1, marginBottom: 12 }}>
                 Begin Your<br /><em style={{ color: '#7ec8e8' }}>Ohrid Story</em>
               </p>
               <p style={{ fontSize: 13, color: 'rgba(255,255,255,.6)', lineHeight: 1.7, maxWidth: 260, marginBottom: 24 }}>
@@ -41,7 +41,7 @@ export default function Contact() {
           {sent ? (
             <div style={{ textAlign: 'center', padding: '56px 32px', background: 'rgba(201,162,39,.08)', border: '1px solid rgba(201,162,39,.28)', borderRadius: 4, animation: 'fadeIn .6s ease' }}>
               <div style={{ fontSize: 52, marginBottom: 20, animation: 'float 2.5s ease-in-out infinite' }}>🌊</div>
-              <h3 style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 32, color: '#fff', fontWeight: 300, marginBottom: 12 }}>Request Received</h3>
+              <h3 style={{ fontFamily: "'Playfair Display',serif", fontSize: 32, color: '#fff', fontWeight: 300, marginBottom: 12 }}>Request Received</h3>
               <p style={{ color: 'rgba(255,255,255,.6)', lineHeight: 1.8, fontSize: 15 }}>We'll confirm your reservation within 24 hours.</p>
             </div>
           ) : (
@@ -74,7 +74,7 @@ export default function Contact() {
                   value={form.notes} onChange={e => setForm({ ...form, notes: e.target.value })} onFocus={focus} onBlur={blur} />
               </div>
               <button type="submit" className="btn-gold"
-                style={{ padding: '17px', background: 'linear-gradient(135deg,#c9a227,#e8c560)', color: '#1a1208', border: 'none', borderRadius: 2, fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', fontWeight: 600, cursor: 'pointer', fontFamily: "'Jost',sans-serif", marginTop: 4 }}>
+                style={{ padding: '17px', background: 'linear-gradient(135deg,#c9a227,#e8c560)', color: '#1a1208', border: 'none', borderRadius: 2, fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', fontWeight: 600, cursor: 'pointer', fontFamily: "'Lato',sans-serif", marginTop: 4 }}>
                 Send Reservation Request
               </button>
             </form>
